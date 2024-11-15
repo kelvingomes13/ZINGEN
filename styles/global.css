@@ -72,6 +72,16 @@ a {
   text-decoration: none;
   color: inherit;
 }
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 /* alguns navegadores perde atributo de lista quando removemos list-style no css, vamos usar atributo role=list para manter padrão de acessabilidade 
 Some browsers lose list attribute when we remove list-style in CSS, let's use role=list attribute to maintain accessibility default
 */
