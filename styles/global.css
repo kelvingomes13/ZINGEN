@@ -88,6 +88,11 @@ Some browsers lose list attribute when we remove list-style in CSS, let's use ro
 ul[role="list"] {
   list-style: none;
 }
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
 /* "em" = busca fontsize pai -> root 80x16=1280px */
 @media (width >= 80em) {
 :root {
