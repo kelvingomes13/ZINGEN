@@ -3,8 +3,6 @@
   --btn-color: var(--bg-color);
   border: 0;
 
-  background-color: transparent;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,10 +26,8 @@
 
   -webkit-background-clip: initial;
   background-clip: initial;
-   color: var(--bg-color);  /*por algum motivo "color: var(-btn-color)" deixa a fonte do botão branco*/
-
+  color: var(--bg-color);  /*por algum motivo "color: var(-btn-color)" deixa a fonte do botão branco*/
 }
-
 
 .btn-sm {
   padding: .5rem 1rem;
